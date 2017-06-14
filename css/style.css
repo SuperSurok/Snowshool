@@ -1,0 +1,1174 @@
+/* Ообщие стили */
+body {
+    min-width: 1170px;
+    color: #111;
+    font-size: 16px;
+    background-color: #fff;
+    font-family: 'Futura PT', 'PT Sans Caption', Georgia, serif;
+
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #111;
+}
+
+li {
+    list-style-type: none;
+}
+
+input, textarea, select, button {
+    outline: none;
+}
+
+iframe {
+    border: none;
+}
+
+.container {
+    width: 1170px;
+    margin: 0 auto;
+}
+
+.btn {
+    font-size: 15px;
+    font-weight: 600;
+    color: #74e196;
+    padding: 16px 20px;
+    text-decoration: none;
+    border: 2px solid #000;
+    text-transform: uppercase;
+    display: inline-block;
+}
+
+.btn:hover {
+    color: #fff;
+    background-color: #74e196;
+}
+
+.btn:active {
+    color: #74e196;
+    background-color: #fff;
+}
+
+.btn-border-white {
+    border-color: #fff;
+}
+
+.btn-border-white:hover {
+    color: #fff;
+    background-color: #74e196;
+}
+
+.title {
+    text-align: center;
+    font-size: 40px;
+}
+
+
+/* Хедер */
+
+/* Баннер */
+.banner {
+    min-height: 645px;
+    margin: 0 0 37px 0 ;
+    background-image: url("../img/mainfon/snowball.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+
+.banner-title {
+    color: #fff;
+    padding: 100px 0 0 50px;
+}
+
+.banner-title {
+    padding-top: 62px;
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.banner-city {
+    font-size: 38px;
+    font-weight: 800;
+    color: #fff;
+    padding-left: 50px;
+    margin-top: 27px;
+    text-transform: none;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: 800;
+    letter-spacing: 2px;
+    color: black;
+    text-transform: uppercase;
+    border: 4px solid #000;
+    padding: 16px 20px;
+    font-family: 'Avenir Next';
+}
+
+.header ul a:hover {
+    border-bottom: 3px solid #74e196;
+    padding-bottom: 3px;
+}
+
+
+
+/* Навигация */
+
+.header {
+    font-family: 'Futura PT';
+}
+
+.header-main {
+    margin-top: 60px;
+    overflow: hidden;
+}
+
+.header-logo {
+    float: left;
+}
+
+.nav-list {
+    margin-left: 40px;
+    float: left;
+    margin-top: 28px;
+}
+
+.contact-phone {
+    font-size: 22px;
+    margin-left: 45px;
+    color: #111;
+    font-weight: 600;
+    margin-top: 24px;
+    display: inline-block;
+}
+
+
+nav li {
+    font-size: 15px;
+    font-weight: 500;
+    color: #111;
+    text-transform: uppercase;
+    text-decoration: none;
+    margin-left: 43px;
+    display: inline-block;
+}
+
+.nav-list ul li:first-child {
+    margin-left: 0;
+}
+
+.btn-header {
+    float: right;
+    margin-left: 35px;
+    margin-top: 11px;
+}
+
+
+
+/* Страница 1 Блок 1 */
+
+.offers {
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.title-offers {
+    margin-top: 65px;
+}
+.offers-subtitle {
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 55px;
+    margin-bottom: 45px;
+    text-align: center;
+}
+
+
+.offers-item-left {
+    float: left;
+    width: 31%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.offers-foto-vertical {
+    width: 100%;
+    height: 245px;
+}
+
+.offers-text-left {
+    margin-top: 45px;
+}
+
+/* .offers-text p {
+    font-weight: 500;
+    margin-top: 30px;
+} */
+
+.offers-description {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.offers-right-side {
+    float: left;
+    margin-left: 3%;
+    width: 66%;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.offers-foto-horizon {
+    width: 47%;
+    height: 245px;
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.offers-text-right{
+    width: 48%;
+    margin-left: 4%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.offers-item-right {
+    margin-bottom: 45px;
+}
+
+
+.offers-img {
+    width: 100%;
+    height: 245px;
+    object-fit: cover;
+}
+
+.offers-item-link {
+    background: url("../img/offers/right-arrow.png") 0 0 no-repeat;
+    width: 37px;
+    height: 27px;
+    float: right;
+}
+
+.title-item-offers {
+    margin-bottom: 34px;
+}
+
+.offers-time {
+    display: inline-block;
+}
+/* Страница 1 Блок 2 */
+
+.title-about {
+    margin-top: 80px;
+}
+
+.about-container {
+   overflow: hidden;
+   vertical-align: bottom;
+}
+
+.about-item {
+    font-size: 15px;
+    font-weight: 500;
+    width: 31%;
+    margin-left: 40px;
+    margin-top: 55px;
+    float: left;
+    text-align: center;
+    position: relative;
+    padding-top: 85px;
+}
+
+.about-item:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.about-item-garant:before {
+    background: url("../img/whyme/like.png") 0 0 no-repeat;
+    width: 60px;
+    height: 60px;
+}
+
+.about-item-exp:before {
+    background: url("../img/whyme/certificate.png") 0 0 no-repeat;
+    width: 61px;
+    height: 61px;
+}
+
+.about-item-inidivid:before {
+    background: url("../img/whyme/Today-100.png") 0 0 no-repeat;
+    width: 64px;
+    height: 64px;
+}
+
+.about-item-inventory:before {
+    background: url("../img/whyme/ski.png") 0 0 no-repeat;
+    width: 75px;
+    height: 75px;
+}
+
+.about-item-safe:before {
+    background: url("../img/whyme/snowboard-helmet.png") 0 0 no-repeat;
+    width: 72px;
+    height: 71px;
+}
+
+.about-item-transfer:before {
+    background: url("../img/whyme/bus.png") 0 0 no-repeat;
+    width: 80px;
+    height: 81px;
+}
+.about-item:first-child {
+    margin-left: 0;}
+
+.about-item:nth-child(3n+1) {
+    margin-left: 0;
+    clear: left;
+}
+
+.about-item h5 {
+    margin-top: 25px;
+}
+
+.about-item p {
+    margin-top: 35px;
+    text-align: left;
+}
+
+
+/* Страница 1 Блок 3 */
+.sale {
+    margin-top: 75px;
+    color: #fff;
+    min-height: 365px;
+    border: 4px solid #bababc;
+    box-sizing: border-box;
+    background-image: url("../img/mainfon/blairhabenicht_crispincannon.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+
+
+.title-sale {
+    padding-top: 30px;
+    margin-bottom: 30px;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.sale-item {
+    width: 18%;
+    font-size: 18px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    margin-left: 160px;
+}
+
+.sale-item:first-child {
+    margin-left: 0;
+}
+
+.sale-title-text {
+    margin-bottom: 30px;
+}
+
+.sale-text-green {
+    color: #74e196;
+}
+
+.sale-btn{
+    margin-left: 0;
+    margin-top: 35px;
+}
+
+
+/* Страница 1 Блок 4 */
+.team {
+    text-align: center;
+}
+
+.team-block {
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 40px;
+    background-image: linear-gradient(to top, rgba(255,255,255,1) 0%, rgba(255, 255, 255, 0) 70% ), url("../img/mainfon/NikeSBChronicles-7-Team_hd_1600.jpg");
+    background-image: -webkit-linear-gradient(to top, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 53% ), url("../img/mainfon/NikeSBChronicles-7-Team_hd_1600.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+}
+
+.title-team {
+    padding-top: 82px;
+}
+
+.team-column {
+    width: 65%;
+    padding-top: 440px;
+    margin: 0 auto;
+}
+
+.team-btn {
+    margin-top: 80px;
+    text-align: center;
+}
+
+.community {
+    margin-top: 50px;
+    font-weight: 500;
+
+}
+
+.community-title {
+    margin-bottom: 25px;
+}
+
+.coomunity-column {
+    width: 65%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.map {
+    margin-top: 25px;
+}
+
+.community-insta-title {
+    font-size: 40px;
+    text-align: center;
+    margin: 120px 0 50px 0;
+}
+
+.community-foto {
+    font-size: 0;
+    margin-bottom: 85px;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.community-img {
+    width: 15.4%;
+    height: 180px;
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.community-img:nth-child(1) {
+    margin-left: 0px;
+}
+
+
+
+                                                /* Страница 2 */
+
+ /* Страница 2 Общие стили */
+
+ .trainers-list-up {
+    font-size: 0;
+ }
+
+ .trainers-item {
+    font-size: 14px;
+    width: 20%;
+    height: 232px;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+}
+
+.trainers-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(60%);
+    transition: all 0.5s ease;
+}
+
+.trainers-img:hover {
+    filter: brightness(100%);
+}
+
+.trainers-item:hover p{
+    display: none;
+}
+
+
+.trainers-item-link {
+    width: 100%;
+    height: 100%;
+    display: inline-block;
+    z-index: 10;
+}
+.link-active {
+    mix-blend-mode: lighten;
+    background-color: rgba(117, 224, 151, 0.3);
+    z-index: 50;
+}
+
+/* Страница 2 Блок 1 */
+
+
+.select-title {
+    margin-top: 70px;
+    font-size: 40px;
+    text-align: center;
+}
+
+.form-line {
+    width: 47%;
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+    position: relative;
+}
+
+.form-line__btn {
+    border: none;
+    background-color: #fff;
+    position: absolute;
+    right: 3%;
+    top: 22%;
+}
+
+.trainers-list-up {
+    margin: 60px 0 60px 0;
+}
+
+.trainers-item {
+    position: relative;
+    display: inline-block;
+}
+
+.trainers-item p {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* Страница 2 Блок 2 */
+
+.container-card {
+    width: 89%;
+    margin: 0 auto;
+}
+
+.card-trainer {
+    overflow: hidden;
+}
+
+.card-trainer-foto {
+    float: left;
+    width: 26%;
+}
+
+.card-trainers-info {
+    float: left;
+    width: 43%;
+    margin-left: 70px;
+    min-height: 105px;
+}
+
+.card-trainers-info-sport,
+.card-trainers-info-style,
+.card-trainers-info-exp {
+    width: 30%;
+    float: left;
+    font-size: 20px;
+    font-weight: 500;
+    margin-top: 40px;
+}
+
+.card-trainers-info-sport {
+    position: relative;
+}
+
+.card-trainers-info-sport-img {
+    width: 30px;
+    height: 70px;
+    margin-top: 25px;
+}
+
+.card-trainers-info-sport-img:after {
+    content: '';
+    position: absolute;
+    background: url("../img/trainerscard/ski.png") 0 0 no-repeat;
+    top: 35px;
+    left: 20px;
+    width: 30px;
+    height: 70px;
+}
+
+p .card-trainers-info-sport {
+    text-align: center;
+}
+
+p .card-trainers-info-exp {
+    text-align: center;
+}
+.card-trainers-info-exp-text {
+    padding-top: 10px;
+}
+
+.card-trainers-info-style {
+    padding-left: 35px;
+}
+
+.card-trainers-style-buttons {
+    width: 13%;
+    float: left;
+    margin-left: 114px;
+}
+
+.card-trainer-scale {
+    border: 2px solid #111;
+    margin-top: 30px;
+    width: 60px;
+    height: 45px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.card-trainer-scale-img {
+    content: '';
+    position: absolute;
+    background: url("../img/trainerscard/flash.png") 0 0 no-repeat;
+    width: 15px;
+    height: 30px;
+    top: 20%;
+    left: 19%;
+}
+
+.card-trainer-scale-point {
+    position: absolute;
+    top: 20%;
+    right: 25%;
+}
+
+.card-trainer-scale p {
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 600;
+}
+.card-achive {
+    min-height: 280px;
+    overflow: hidden;
+    margin-top: 30px;
+    min-height: 315px;
+}
+
+.card-achive-education {
+    width: 48%;
+    float: left;
+    font-family: 'PT Sans';
+}
+
+.card-achive-education-title {
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.card-achive-education-text {
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: 500;
+    padding-top: 35px;
+    text-align: left;
+}
+
+
+.card-achive-video {
+    width: 48%;
+    float: right;
+}
+
+.card-trainer-feedback {
+    background-image: url("../img/mainfon/Snowboard-Wallpaper-Nicolas-Muller-Laax.jpg");
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 89%;
+    min-height : 225px;
+    margin: 0 auto;
+    margin-top: 55px;
+    position: relative;
+}
+
+.vk-feedback {
+    content: '';
+    position: absolute;
+    top: 17.5%;
+    left: 19%;
+}
+
+.card-trainer-feedback p {
+    width: 60%;
+}
+
+.card-trainer-feedback-client {
+    padding-top: 45px;
+    padding-left: 40px;
+    font-weight: 500;
+    font-size: 20px;
+
+}
+
+.card-trainer-feedback-text {
+    padding-top: 20px;
+    padding-left: 40px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+
+
+
+
+/* Стрница 2 Блок 3 */
+
+
+.trainers {
+    font-size: 0;
+}
+
+.trainers-list-down {
+    margin: 70px 0 90px 0;
+    font-size: 0;
+}
+
+
+
+/* Страница 3 */
+.programs {
+    margin: 0 auto;
+    text-align: center;
+}
+
+
+.programs-caption {
+    margin-top: 55px;
+}
+
+.table {
+    width: 100%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 50px;
+}
+
+th {
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    border: none;
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 500;
+}
+
+td {
+    padding: 10px;
+    margin: 0;
+    text-align: left;
+    border: 2px solid #111;
+    font-family: 'PT Sans';
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.table-link {
+    color: #74e196;
+    font-family: 'Futura PT';
+    font-size: 20px;
+    font-weight: 600;
+}
+
+td:last-child {
+    text-align: center;
+}
+
+.abonement {
+    margin-top: 35px;
+}
+
+.abonement-foto {
+    width: 26%;
+    float: left;
+    position: relative;
+}
+
+.abonement-foto-face {
+    background: center 0 no-repeat;
+    background-position: cover;
+    width: 200px;
+    height: 200px;
+    border: 4px solid #8de8ab;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 60px;
+}
+
+
+.abonement-foto-name {
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    bottom: -4%;
+    left: 27%;
+    right: 0;
+    background-color: #111;
+    color: #fff;
+    font-size: 15px;
+}
+
+.abonement-foto-name p {
+    padding-top: 8px;
+}
+
+.abonement-info {
+    width: 100%;
+    margin: 0 auto;
+    min-height: 375px;
+    border: 2px solid  #111;
+}
+
+.abonement-info-text {
+    width: 40%;
+    float: left;
+    text-align: left;
+    margin-top: 60px;
+}
+
+.abonement-info-text-date {
+    padding-top: 15px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+
+.abonement-info-text-subtitle {
+    padding-top: 18px;
+}
+
+.abonement-info-text-main {
+    padding-top: 18px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+
+.abonement-link {
+    padding-top: 30px;
+    font-family: 'PT Sans';
+    font-size: 15px;
+}
+
+.abonement-link-hover:hover {
+    border-bottom: 2px solid #6de793;
+}
+
+.abonement-purchase {
+    width: 20%;
+    float: right;
+    padding-top: 50px;
+}
+
+.abonement-price {
+    font-size: 30px;
+    font-weight: 500;
+}
+
+.abonement-btn {
+    padding-top: 20px;
+}
+
+.abonement-select {
+    position: relative;
+    width: 10%;
+    margin: 0 auto;
+}
+
+.abonement-select li {
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.abonement-select:before {
+    content: '';
+    background:  url("../img/trainerscard/arrowprev.png") 0 0 no-repeat;
+    position: absolute;
+    top: 36%;
+    left: -6%;
+    width: 14px;
+    height: 28px;
+}
+
+.abonement-select:after {
+    content: '';
+    background:  url("../img/trainerscard/arrownext.png") 0 0 no-repeat;
+    position: absolute;
+    top: 36%;
+    right: -14%;
+    width: 14px;
+    height: 28px;
+}
+
+.abonement-select-item:hover {
+    color: #6de793;
+}
+
+..abonement-select-item:active {
+    color: #6de793;
+}
+
+.callback-form {
+    width: 48%;
+    padding-top: 80px;
+    margin: 0 auto;
+}
+
+.callback-form-title {
+    margin-bottom: 60px;
+    font-size: 40px;
+    font-weight: 600;
+}
+
+.form__line {
+    margin: 35px 0;
+}
+
+.input-name {
+  outline: none;
+  border: 2px solid #111;
+  height: 49px;
+  line-height: 30px;
+  width: 100%;
+  padding: 0 0 0 10px;
+  box-sizing: border-box;
+  color: #777;
+}
+
+.input-name-instructor {
+    padding: 10px 50px 10px 10px;
+}
+
+.input-name-client,
+.client-signature {
+    display: block;
+}
+
+.input-name-client {
+    margin-bottom: 35px;
+    padding: 10px;
+}
+
+.client-signature {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+textarea {
+  outline: none;
+  border: 3px solid #111;
+  height: 49px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.input-name-client-text {
+    width: 100%;
+    height: 120px;
+    resize: none;
+}
+
+.calback-btn-form {
+    margin-bottom: 65px;
+    text-align: center;
+}
+
+
+
+
+    /* Футер */
+.footer {
+    background-image: url("../img/mainfon/Snowboard-Wallpaper-Nicolas-Muller-Laax.jpg");
+    background-size: cover;
+    background-position: 0 50%;
+    background-repeat: no-repeat;
+    margin: 0 auto;
+    overflow: hidden;
+    font-size: 0;
+    min-height: 300px;
+}
+
+.footer-contacts {
+    margin-top: 20px;
+    font-size: 0;
+    overflow: hidden;
+    text-align: center;
+}
+
+.footer-logo, .socials, .phone-addres {
+    width: 33.33%;
+    display: inline-block;
+    padding: 25px 0;
+}
+
+.footer-logo {
+    text-align: left;
+}
+.phone-addres {
+    font-size: 15px;
+    text-align: right;
+}
+.socials__item {
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.socials-item:first-child {
+    margin-left: 0;
+}
+
+.footer-down {
+    margin-top: 40px;
+    margin-bottom: 75px;
+    overflow: hidden;
+}
+
+.logo-text {
+    font-size: 15px;
+    float: left;
+}
+
+.footer-nav {
+    font-size: 15px;
+    float: right;
+}
+
+.contact__mail {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.footer-nav-link {
+    color: #4e4e4e;
+}
+
+.footer-nav-link:hover {
+    color: #111;
+}
+
+.footer-nav-link:active {
+    color: #4e4e4e;
+}
+
+.sprite {
+    background-image: url("../img/socials/spritesheet.png");
+    background-repeat: no-repeat;
+    display: block;
+}
+
+.sprite-facebook-logo {
+    width: 18px;
+    height: 33px;
+    background-position: -5px -5px;
+}
+
+.sprite-facebook-logo:hover {
+    width: 18px;
+    height: 33px;
+    background-position: -61px -5px;
+}
+
+.sprite-facebook-logo:active {
+    width: 18px;
+    height: 33px;
+    background-position: -33px -5px;
+}
+
+.sprite-instagram-logo {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -5px;
+}
+
+.sprite-instagram-logo:hover {
+    width: 32px;
+    height: 32px;
+    background-position: -5px -89px;
+}
+
+.sprite-instagram-logo:active {
+    width: 32px;
+    height: 32px;
+    background-position: -89px -47px;
+}
+
+.sprite-search {
+    width: 27px;
+    height: 27px;
+    background-position: -47px -89px;
+}
+
+.sprite-vk {
+    width: 40px;
+    height: 24px;
+    background-position: -84px -89px;
+}
+
+.sprite-vk:hover {
+    width: 40px;
+    height: 24px;
+    background-position: -131px -39px;
+}
+
+.sprite-vk:active {
+    width: 40px;
+    height: 24px;
+    background-position: -84px -89px;
+}
+
+.sprite-youtube-logo {
+    width: 32px;
+    height: 32px;
+    background-position: -134px -73px;
+}
+
+.sprite-youtube-logo:hover {
+    width: 32px;
+    height: 32px;
+    background-position: -181px -5px;
+}
+
+.sprite-youtube-logo:active {
+    width: 32px;
+    height: 32px;
+    background-position: -134px -115px;
+}
